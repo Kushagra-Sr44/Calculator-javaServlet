@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<servlet>
+	<servlet-name>Cal</servlet-name>
+	<servlet-class>com.myServlet.cal</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Cal</servlet-name>
+	<url-pattern>/cal</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>Add</servlet-name>
+	<servlet-class>com.myServlet.add</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Add</servlet-name>
+	<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>Mul</servlet-name>
+	<servlet-class>com.myServlet.mul</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Mul</servlet-name>
+	<url-pattern>/mul</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>Div</servlet-name>
+	<servlet-class>com.myServlet.div</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Div</servlet-name>
+	<url-pattern>/div</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>Sub</servlet-name>
+	<servlet-class>com.myServlet.sub</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Sub</servlet-name>
+	<url-pattern>/sub</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
