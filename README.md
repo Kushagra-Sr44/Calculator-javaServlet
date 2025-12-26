@@ -54,6 +54,3 @@ http://localhost:8080/<context-path>/calculate?op=add&a=2&b=3
 - Use `RequestDispatcher.include()` to include output from another servlet inside a response.
 - Validate inputs (numeric parsing, division by zero) in the operation servlets and show friendly errors.
 - Consider centralizing common parsing/validation in the dispatcher or a utility class.
-
-## License
-Add a license if desired (e.g., MIT).
